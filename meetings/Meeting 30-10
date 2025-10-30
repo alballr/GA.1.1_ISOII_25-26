@@ -1,0 +1,41 @@
+Fecha → 30/oct/25 – 8:30 a 10:20
+- Presencia
+Todos menos la turca
+Alicia se ha unido a las 9:25
+Korby solo esta en cuerpo (no se ha metido en el doc y no ha hablado en toda la reunion)
+
+- Casos a tratar y como se arreglron
+Quienes seran los expertos en git y maven
+Obejtivo principal: Hacer la planificaion
+	Sacar los requesitos funcionales y mapearlos a CdU
+	Sacar la prioridad y mapear la prioridad
+	Hacer la tabla de CdU como el pdf pasao por wassap
+	[n RF | n CdU | Funcionalidad | Prioridad]
+	Cada requesito tiene la parte del cliente y del server
+	Mapear CdU a iter
+	
+- Tareas para la siguiente reunion
+Hacer la hoja de inputacion → Alba
+Hacer la tabla kanban → Alba
+Mirar si hacer requesitos no funcionales → Alvaro
+Unificar las versiones del SW (Misma version de Java, la 24) → Todos
+Revisar lo que se ha hecho en el doc → Alvaro
+Tratar el branching de git una vez la experta este lista → Alicia
+Mapear todas las iteraciones y ver con cuales nos quedamos porque hacemos 2 por persona→ Todos
+Tratar los costes del proyecto → Todos
+Que parte se queda para elaboracion y que para construccion → Todos
+Hacer diagrama de CdU → Alvaro
+
+- Deciciones tomadas y problemas arreglados
+Experta en git (Investigar branching y wiki)→ Alicia
+Experta en maven (Investigar maven al proyecto)→ Lucia
+Experta en maven → Hiba
+Solucionado conflicto sobre la asignacion de prioridades
+Dividimos planificacion de las iteraciones en:
+Alvaro → 2  (1-2)+ Diagrama CdU
+Alba → 4 (7-10)
+Lucia → 4 (3-6)
+Hiba → 3 (14-16)
+Abd → 6 (23-29)
+Turca → 6 (17-22)
+Alicia → 3 (11-13)
