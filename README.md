@@ -1,11 +1,11 @@
 # MEMBERS 
 * Alba Llorente Ramírez: Leader
-- Hiba El Farissi
+- Hiba El Farissi: Expert in Maven
 - Álvaro de Torres Barón: Secretary
-- Alicia Villaseñor Ormeño: Subsecretary
+- Alicia Villaseñor Ormeño: Expert in Git / Github
 - Irem Batigün
 - Abdelmouiz Kobry
-- Lucía Sánchez-Chiquito Gómez
+- Lucía Sánchez-Chiquito Gómez: Expert in Maven
 -----------------------------------------------------------------
 # WORK AGREEMENT
 1. We will upload our work in the agreed deadlines.
