@@ -20,8 +20,8 @@ The second **maven expert** chosen is *Hiba El Farissi.*<br/>
 
 ### 2. Start making the planning
 
-We mapped the F.R to U.C.
-We stablished and mapped the prioriy
+We mapped the F.R to U.C.<br/> 
+We stablished and mapped the prioriy<br/> 
 We mapped iterations to U.C.
 
 ### 3. We stablish next meeting talking points
