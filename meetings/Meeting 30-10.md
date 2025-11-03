@@ -26,8 +26,8 @@ We mapped iterations to U.C.
 
 ### 3. We stablish next meeting talking points
 Here we stablised what we needed to do in order to complete iteration 0 and who needed to do it
-Make the imputation table → Alba
-Make the kanban → Alba
+Make the imputation table → Alba<br/> 
+Make the kanban → Alba<br/> 
 Look information related to the non-functional requirements → Alvaro
 Unify the software versions (Java 24) → Everone
 Preparing a model of the github branching → Alicia
