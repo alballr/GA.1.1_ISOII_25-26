@@ -9,7 +9,7 @@
   - Moataz Kobry
   - Lucía Sánchez-Chiquito Gómez - Couldn't assist due to being on medical leave
 
-## Key points
+## Agenda
 
 ### 1. Putting everyone up to speed
 During this meeting, we focused on setting up the GitHub repository and ensuring that everyone in the team could access it correctly from their own computers. We went through the process of linking the repository to Eclipse, configuring the necessary settings, and verifying that each member was able to clone and push changes without issues.
@@ -25,4 +25,5 @@ The **secretary** would be *Álvaro de Torres Barón.*
 
 ## Next meeting
 
-We haven't settled a date for the next meeting yet, but next meeting we will start planning Iterarion 0.
+- Finalize role assignments for all team members  
+- Begin outlining the project structure and development plan
