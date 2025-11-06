@@ -25,6 +25,8 @@ The team also discussed Maven implementation, evaluating how it integrates into 
 
 As the team is currently running slightly behind schedule, it was agreed that programmers will need to increase their workload in the coming weeks to stay on track with delivery milestones.
 
+We also agreed to start making excel calendars as explained by Ismael too keep better track of the assistance to the meetings.
+
 ### 3. Discussion on Quality Characteristics
 
 The team identified and confirmed three key quality characteristics for the project:
