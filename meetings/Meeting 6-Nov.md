@@ -1,6 +1,19 @@
-# Meeting Minutes – 6 November, 20:00–21:15
+# Meeting 6th of November
 
-## Order of the Day
+## Date
+6/nov/2025 - 20:00 to 6/nov/2025 - 21:15
+
+## Attendance
+- Álvaro de Torres Barón
+- Alba Llorente Ramírez
+- Alicia Villaseñor Ormeño
+- Hiba El Farissi
+- Moataz Kobry (Was justifiably absent)
+- Lucía Sánchez-Chiquito Gómez
+
+[6th October Meeting Excell](https://pruebasaluuclm.sharepoint.com/:x:/r/sites/ISOII-GA.1.1/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B58eb2e0c-945b-4d77-a6c0-a1edde982b0e%7D&wdOrigin=TEAMS-WEB.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1762509043628&web=1)
+
+## Key points
 
 1. Opening of the meeting
 2. Roll call
