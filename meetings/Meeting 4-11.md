@@ -9,6 +9,8 @@
   - Moataz Kobry
   - Lucía Sánchez-Chiquito Gómez
 
+[4th November Meeting Excel](https://pruebasaluuclm.sharepoint.com/:x:/r/sites/ISOII-GA.1.1/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Bdb95f281-80b5-4aec-93c0-e6bb2ee62730%7D&wdOrigin=TEAMS-WEB.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1762509197470&web=1)
+
 ## Agenda
 
 ### 1. Remapping of iterations
