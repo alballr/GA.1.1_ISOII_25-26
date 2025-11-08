@@ -1,5 +1,4 @@
-Hello everyone this is the blueprint you must follow in order to develop each iteration. As you know you have to develop both the diagrams (use case, static view
-and class) of the functional requirement/use case you have to implement and please do not include this part on the final commit, thanks.
+Hello everyone this is the blueprint you must follow in order to develop each iteration, on this case is about iteration 2 but you can change it to your iteration number. As you know you have to develop both the diagrams (use case, static view and class) of the functional requirement/use case you have to implement and please do not include this part on the final commit, thanks.
 
 # Iteration 2
 
