@@ -1,10 +1,10 @@
-Hello everyone this is the blueprint you must follow in order to develop each iteration, on this case is about iteration 2 but you can change it to your iteration number. As you know you have to develop both the diagrams (use case, static view and class) of the functional requirement/use case you have to implement and please do not include this part on the final commit, thanks.
+Hello everyone this is the blueprint you must follow in order to develop each iteration, on this case is about iteration 2 but you can change it to your iteration number. Please at the start of an iteration (e.g. Iteration 2 requirements) there is this big chunk of text (Person's name | Day | Begin time | End time | Duration (end - start time) | phase + iteration) this is to know who and when a person is working, to match the expected time. As you know you have to develop both the diagrams (use case, static view and class) of the functional requirement/use case you have to implement and please do not include this part on the final commit, thanks.
 
 # Iteration 2
 
-Realizado por:
-  - Álvaro de Torres Barón
-  - Alicia Villaseñor Ormeño
+Made by:
+  - Person 1
+  - Person 2
 
 ## Iteration 2 requirements
 # Person's name | Day | Begin time | End time | Duration (end - start time) | phase + iteration (design iteration 2)
