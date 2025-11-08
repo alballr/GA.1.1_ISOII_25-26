@@ -6,6 +6,7 @@
 ## Attendance
 - Álvaro de Torres Barón
 - Alba Llorente Ramírez
+- İrem Batıgün
 - Alicia Villaseñor Ormeño
 - Hiba El Farissi
 - Moataz Kobry (Was justifiably absent)
