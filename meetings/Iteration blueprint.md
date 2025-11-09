@@ -11,6 +11,14 @@ Made by:
 On this itereation we have to develop the **use case 19**: *create, update, and delete bibliographic records.* In order to do this we designed the
 use case diagrams for both the client and the server.
 
+### Client's requirements analysis
+
+Basically what we have to do here is one of those green boxes saying things about this requirement
+
+### Server's requirements analysis
+
+Basically what we have to do here is one of those green boxes saying things about this requirement
+
 ### Client use case diagram
 
 **Client's use case diagram**
@@ -21,7 +29,13 @@ use case diagrams for both the client and the server.
 
 ### Basic workflow
 
-**Esto lo ponemos o no?**
+### Client's basic workflow
+
+**Basically describe in simple steps how our system will behave normally, with no errors or weird things happening, starting from the interaction of the user ending with the return from the system**
+
+### Server's basic workflow
+
+**Basically describe in simple steps how our system will behave normally, with no errors or weird things happening, starting from the interaction of the user ending with the return from the system**
 
 ## Iteration 2 analysis
 **Person's name | Day | Begin time | End time | Duration (end - start time) | phase + iteration (analysis iteration 2)**
