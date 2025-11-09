@@ -8,8 +8,7 @@ Made by:
 
 ## Iteration 2 requirements
 **Person's name | Day | Begin time | End time | Duration (end - start time) | phase + iteration (design iteration 2)**
-On this itereation we have to develop the **use case 19**: *create, update, and delete bibliographic records.* In order to do this we designed the
-use case diagrams for both the client and the server.
+On this itereation we have to develop the **use case 19**: *create, update, and delete bibliographic records.* In order to do this we analysed the requirements for both the server and client and designed the use case diagrams for both the client and the server.
 
 ### Client's requirements analysis
 
