@@ -3,7 +3,7 @@
 - Hiba El Farissi: Expert in Maven
 - Álvaro de Torres Barón: Secretary
 - Alicia Villaseñor Ormeño: Expert in Git / Github
-- Irem Batigün
+- İrem Batıgün
 - Abdelmouiz Kobry
 - Lucía Sánchez-Chiquito Gómez: Expert in Maven
 -----------------------------------------------------------------
