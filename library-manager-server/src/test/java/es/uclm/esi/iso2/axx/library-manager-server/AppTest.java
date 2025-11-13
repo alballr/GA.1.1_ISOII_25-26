@@ -1,4 +1,4 @@
-package es.uclm.esi.iso2.axx.library_manager_server;
+package es.uclm.esi.iso2.axx.serverBibliographicRecord;
 
 import org.junit.jupiter.api.Test;
 

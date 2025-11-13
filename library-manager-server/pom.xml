@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>es.uclm.esi.iso2.axx</groupId>
-  <artifactId>library-manager-server</artifactId>
+  <artifactId>serverBibliographicRecord</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
-  <name>library-manager-server</name>
+  <name>serverBibliographicRecord</name>
   <url>http://www.example.com</url>
 
   <properties>
