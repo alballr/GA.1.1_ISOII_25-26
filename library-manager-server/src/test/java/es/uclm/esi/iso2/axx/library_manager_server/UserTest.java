@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
+import Control.User;
 
 @DisplayName("User Entity Tests (Server)")
 public class UserTest {
@@ -16,20 +17,14 @@ public class UserTest {
     }
 
     @Test
-    @DisplayName("Test User object creation")
+    @DisplayName("Test User creation")
     public void testUserCreation() {
-        assertNotNull(user, "User object should not be null");
+        assertNotNull(user);
     }
 
     @Test
-    @DisplayName("Test User attributes are accessible")
-    public void testUserAttributesExist() {
-        assertDoesNotThrow(() -> user.getClass().getDeclaredFields());
-    }
-
-    @Test
-    @DisplayName("Test User instance type")
-    public void testUserInstance() {
-        assertTrue(user instanceof User);
+    @DisplayName("User should have name, ID, and email fields")
+    public void testUserFields() {
+        assertEquals(3, user.getClass().getDeclaredFields().length);
     }
 }
