@@ -42,4 +42,9 @@
       </plugin>
     </plugins>
   </build>
+  <modules>
+  	<module>server_loanManagement</module>
+  	<module>server_userManagement</module>
+  	<module>server_bibliographicRecord</module>
+  </modules>
 </project>
