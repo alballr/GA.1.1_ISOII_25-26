@@ -7,10 +7,16 @@
   <groupId>es.uclm.esi.iso2.axx</groupId>
   <artifactId>library-manager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+         
+  <packaging>pom</packaging>
 
   <name>library-manager</name>
   <url>http://www.example.com</url>
+
+<modules>
+   <module>server</module>
+   <module>client</module>
+</modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
