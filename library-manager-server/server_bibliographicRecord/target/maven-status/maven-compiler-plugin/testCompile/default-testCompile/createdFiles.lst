@@ -1,0 +1,6 @@
+Domain_Server\DeleteRecordControlTest.class
+Presentation_Server\SystemAdminControllerTest.class
+Domain_Server\CreateRecordControlTest.class
+Domain_Server\UpdateRecordControlTest.class
+Persistance_Server\AgentTest.class
+Domain_Server\BibliographicRecordTest.class
