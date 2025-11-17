@@ -9,7 +9,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>library-manager-server</name>
+  <name>serverBibliographicRecord</name>
   <url>http://www.example.com</url>
 
   <properties>
