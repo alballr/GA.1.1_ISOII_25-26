@@ -1,5 +1,4 @@
 package Domain.Client;
-import Domain.Client.Project; // O la ruta correcta donde esté tu clase 'Project'
 public class Record {
 
 	private int id;
@@ -7,7 +6,7 @@ public class Record {
 	private long date;
 	private String content;
 
-	public Project getRecord() {
+	public void getRecord() {
 		// TODO - implement Record.getRecord
 		throw new UnsupportedOperationException();
 	}
