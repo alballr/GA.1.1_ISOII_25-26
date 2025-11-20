@@ -1,0 +1,6 @@
+Presentation_Server\SystemAdminController.class
+Domain_Server\BibliographicRecord.class
+Domain_Server\UpdateRecordControl.class
+Persistance_Server\Agent.class
+Domain_Server\DeleteRecordControl.class
+Domain_Server\CreateRecordControl.class
