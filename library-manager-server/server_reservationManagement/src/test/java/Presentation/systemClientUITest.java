@@ -1,24 +1,12 @@
-package Presentation;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class systemClientUITest {
+public class SystemClientUITest {
 
     @Test
-    public void testReadAllLoans() {
-        // Test para readAllLoans
-        //throw new RuntimeException("Not yet implemented");
+    public void test() {
+        fail("Not yet implemented");
     }
 
-    @Test
-    public void testReadSpesificLoan() {
-        // Test para readSpesificLoan
-        //throw new RuntimeException("Not yet implemented");
-    }
-
-    @Test
-    public void testUpdateLoanStatus() {
-        // Test para updateLoanStatus
-        //throw new RuntimeException("Not yet implemented");
-    }
 }
