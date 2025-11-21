@@ -25,4 +25,21 @@ public class SystemAdminControllerTest {
         SystemAdminController controller = new SystemAdminController();
         //assertThrows(UnsupportedOperationException.class, () -> controller.deleteRecord(1));
     }
+    @Test
+    public void testSearchCatalog_ThrowsUnsupportedOperation() {
+        SystemAdminController controller = new SystemAdminController();
+        try {
+            controller.searchCatalog("history");
+            fail("Expected UnsupportedOperationException");
+        } catch (UnsupportedOperationException e) { }
+    }
+
+    @Test
+    public void testBrowseCatalog_ThrowsUnsupportedOperation() {
+        SystemAdminController controller = new SystemAdminController();
+        try {
+            controller.browseCatalog();
+            fail("Expected UnsupportedOperationException");
+        } catch (UnsupportedOperationException e) { }
+    }
 }
