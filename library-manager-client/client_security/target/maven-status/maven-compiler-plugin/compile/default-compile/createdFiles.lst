@@ -1,0 +1,4 @@
+client\Domain\ClientAuthController.class
+client\Domain\ClientUser.class
+client\Persistance\ClientStorageInfo.class
+client\Presentation\loginUI.class
