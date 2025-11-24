@@ -17,6 +17,7 @@
     <module>server_userManagement</module>
     <module>server_security</module>
     <module>server_reservationManagement</module>
+    <module>server_systemManagement</module>
   </modules>
 
 
