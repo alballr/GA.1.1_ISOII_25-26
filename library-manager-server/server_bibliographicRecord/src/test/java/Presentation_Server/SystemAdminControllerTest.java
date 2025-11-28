@@ -3,7 +3,7 @@ package Presentation_Server;
 import org.junit.Test;
 
 import Domain_Server.BibliographicRecord;
-
+import Domain_Server.AccessElectronicResourceControl;
 public class SystemAdminControllerTest {
 
     @Test
@@ -42,4 +42,15 @@ public class SystemAdminControllerTest {
             fail("Expected UnsupportedOperationException");
         } catch (UnsupportedOperationException e) { }
     }
+    
+    @Test
+    public void testRequestResourceAccess() {
+        AccessElectronicResourceControl control = new AccessElectronicResourceControl();
+        ClientInterface boundary = new ClientInterface(control);
+
+        assertThrows(UnsupportedOperationException.class, () -> {
+            boundary.requestResourceAccess(10, 5);
+        });
+    }
+    
 }
