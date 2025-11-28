@@ -38,4 +38,9 @@ public class SystemAdminController {
 	public void deleteRecord(int aRecordID) {
 		throw new UnsupportedOperationException();
 	}
+	
+	public ElectronicResource requestResourceAccess(int userID, int resourceID) {
+        throw new UnsupportedOperationException();
+    }
+	
 }
