@@ -12,6 +12,9 @@
     <module>client_security</module>
     <module>client_reservationManagement</module>
     <module>client_systemManagement</module>
+    <module>basicUserUI</module>
+    <module>sysAdminUI</module>
+    <module>libManagerUI</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
