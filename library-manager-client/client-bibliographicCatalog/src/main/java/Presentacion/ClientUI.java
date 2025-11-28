@@ -3,6 +3,16 @@ package Presentation.Client;
 import java.util.List;
 
 public class ClientUI {
+
+	public void getResource() {
+		// TODO - implement ClientUX.getResource
+		throw new UnsupportedOperationException();
+	}
+
+	public void login() {
+		// TODO - implement ClientUX.login
+		throw new UnsupportedOperationException();
+	}
 	
 	private ControlBrowsing controlBrowsing;
 
