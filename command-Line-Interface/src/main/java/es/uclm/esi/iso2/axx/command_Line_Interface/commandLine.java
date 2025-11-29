@@ -6,27 +6,39 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class commandLine implements commandLineI {
-
-	public static Scanner sc = new Scanner(System.in);
 	
+	public Scanner sc;
+	
+	public commandLine() {
+		sc = new Scanner(System.in);
+	}
+
 	public int readInt() {
-		int num = 0;
-		String input = sc.nextLine();
-		try {
-			num = Integer.parseInt(input);
-		} catch (NumberFormatException e) {
-			System.out.println("Error. Input was not a number");
+		boolean flag = true;
+		int num= 0;
+		while(flag == true) {
+			try {
+				String input= sc.nextLine();
+				num = Integer.parseInt(input);
+				flag = false;
+			} catch(NumberFormatException e) {
+				flag = true;
+			}		
 		}
 		return num;
 	}
 	
 	public double readDouble() {
-		double num = 0;
-		String input = sc.nextLine();
-		try {
-			num = Double.parseDouble(input);
-		} catch (NumberFormatException e) {
-			System.out.println("Error. Input was not a number");
+		boolean flag = true;
+		double num= 0;
+		while(flag == true) {
+			try {
+				String input= sc.nextLine();
+				num = Double.parseDouble(input);
+				flag = false;
+			} catch(NumberFormatException e) {
+				flag = true;
+			}		
 		}
 		return num;
 	}
@@ -35,17 +47,19 @@ public class commandLine implements commandLineI {
 		Date date = null;
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		sdf.setLenient(false);
-		String input = sc.nextLine();
-		try {
-			date= sdf.parse(input);
-		} catch (ParseException e) {
-			System.out.println("❌ Invalid date. Use format dd/MM/yyyy");
+		boolean flag = true;
+		while(flag == true) {
+			try {
+				String input = sc.nextLine();
+				date= sdf.parse(input);
+				flag= false;
+			} catch (ParseException e) {
+				flag= true;	
+			}
 		}
 		return date;
 	}
    
-
-	
 	public String readString() {
 		return sc.next();
 	}
