@@ -1,0 +1,4 @@
+Presentation\systemClientUITest.class
+Domain\LoanTest.class
+Persistance\AgentTest.class
+Domain\controlLoanReturnTest.class
