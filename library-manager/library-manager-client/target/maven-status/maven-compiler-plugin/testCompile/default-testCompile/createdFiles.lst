@@ -1,0 +1,4 @@
+Presentation\LibraryStafUITest.class
+Domain\LoanTest.class
+Domain\LoanControllerTest.class
+Persistance\AgentTest.class
