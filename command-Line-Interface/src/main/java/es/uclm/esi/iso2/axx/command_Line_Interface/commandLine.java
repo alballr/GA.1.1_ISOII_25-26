@@ -59,6 +59,21 @@ public class commandLine implements commandLineI {
 		}
 		return date;
 	}
+	
+	public boolean readBoolean() {
+		boolean flag = true;
+		boolean bool= false;
+		while(flag == true) {
+			try {
+				String input= sc.nextLine();
+				bool = Boolean.parseBoolean(input);
+				flag = false;
+			} catch(NumberFormatException e) {
+				flag = true;
+			}		
+		}
+		return bool;
+	}
    
 	public String readString() {
 		return sc.next();
@@ -74,7 +89,6 @@ public class commandLine implements commandLineI {
 	
 	public void print(String output) {
 		System.out.print(output);
-	}
-	
+	}	
 
 }
