@@ -64,13 +64,19 @@ public class commandLine implements commandLineI {
 		boolean flag = true;
 		boolean bool= false;
 		while(flag == true) {
-			try {
-				String input= sc.nextLine();
-				bool = Boolean.parseBoolean(input);
-				flag = false;
-			} catch(NumberFormatException e) {
-				flag = true;
-			}		
+			String input = sc.nextLine().trim();
+
+	        if (input.equalsIgnoreCase("true")) {
+	            bool = true;
+	            flag = false;
+	        } 
+	        else if (input.equalsIgnoreCase("false")) {
+	            bool = false;
+	            flag = false;
+	        } 
+	        else {
+	            flag = true;
+	        }		
 		}
 		return bool;
 	}

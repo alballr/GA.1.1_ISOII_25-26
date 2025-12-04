@@ -9,6 +9,7 @@ public interface commandLineI {
 	Date readDate();
 	String readString();
 	String readLine();
+	boolean readBoolean();
 	
 	void printLine(String output);
 	void print(String output);
