@@ -2,7 +2,6 @@ package Presentation;
 
 public class AdministerUI {
 
-	
 	public void displayReservations() {
 		// TODO - implement AdministerUI.displayReservations
 		throw new UnsupportedOperationException();
