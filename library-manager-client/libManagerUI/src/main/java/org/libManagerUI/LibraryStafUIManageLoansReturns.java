@@ -1,6 +1,6 @@
 package Presentation;
 
-public class LibraryStafUI {
+public class LibraryStafUIManageLoansReturns {
 
 	/**
 	 * 
