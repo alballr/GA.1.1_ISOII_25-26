@@ -19,5 +19,12 @@ public class systemClientUI {
 		// TODO - implement systemClientUI.sendResponse
 		throw new UnsupportedOperationException();
 	}
+	
+	public boolean configureSystemParameters(SystemParameters params) {
+		throw new UnsupportedOperationException();
+    }
 
+    public SystemParameters viewCurrentConfiguration() {
+    	throw new UnsupportedOperationException();
+    }
 }
