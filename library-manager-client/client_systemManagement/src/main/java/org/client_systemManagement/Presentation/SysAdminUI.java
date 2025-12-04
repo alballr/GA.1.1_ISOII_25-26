@@ -50,4 +50,13 @@ public class SysAdminUI {
 		throw new UnsupportedOperationException();
 	}
 
+	/**
+	 * 
+	 * @param rommId
+	 */
+	public void requestSpace(int rommId) {
+		// TODO - implement SysAdminUI_.requestSpace
+		throw new UnsupportedOperationException();
+	}
+
 }
