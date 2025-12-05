@@ -1,10 +1,10 @@
-package Domain;
+package Persistence;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class LoanTest {
+class AgentTest {
 
 	@Test
 	void test() {

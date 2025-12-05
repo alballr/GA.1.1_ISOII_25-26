@@ -1,10 +1,10 @@
-package Domain;
+package Presentation;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class LoanTest {
+class systemClientUIServerTest {
 
 	@Test
 	void test() {
