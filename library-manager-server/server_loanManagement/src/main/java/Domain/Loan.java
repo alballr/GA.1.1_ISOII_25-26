@@ -1,35 +1,18 @@
 package Domain;
-import java.util.Vector;
+
 public class Loan {
+	public String _loanId;
+	public String _memberId;
+	public String _itemId;
+	public Date _loanDate;
+	public Date _dueDate;
+	public Date _returnDate;
 
-	private String status;
-	private int id;
-
-	public Vector<Loan> readAll() {
-		// TODO - implement Loan.readAll
+	public boolean isReturned() {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param id
-	 */
-	public Loan read(int id) {
-		// TODO - implement Loan.read
+	public boolean isOverdue(Date aCurrentDate) {
 		throw new UnsupportedOperationException();
 	}
-
-	public String getStatus() {
-		return this.status;
-	}
-
-	/**
-	 * 
-	 * @param status
-	 */
-	public boolean setStatus(String status) {
-		// TODO - implement Loan.setStatus
-		throw new UnsupportedOperationException();
-	}
-
 }

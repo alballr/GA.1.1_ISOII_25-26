@@ -1,53 +1,30 @@
 package Persistence;
-import java.util.Vector;
+
+import Domain.Loan;
+
 public class Agent {
 
-	private Agent minstance;
-
-	public Agent getAgent() {
-		// TODO - implement Agent.getAgent
+	public Connection connection() {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param SQL
-	 */
-	public int insert(String SQL) {
-		// TODO - implement Agent.insert
+	public void saveLoan(Loan aLoan) {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param SQL
-	 */
-	public Vector<Object> select(String SQL) {
-		// TODO - implement Agent.select
+	public void updateLoan(Loan aLoan) {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param SQL
-	 */
-	public int update(String SQL) {
-		// TODO - implement Agent.update
+	public Vector<Loan> fetchActiveLoans(String aMemberId) {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param SQL
-	 */
-	public int delete(String SQL) {
-		// TODO - implement Agent.delete
+	public Vector<Loan> fetchLoanHistory(String aMemberId) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void connect() {
-		// TODO - implement Agent.connect
+	public Loan fetchLoanById(String aLoanId) {
 		throw new UnsupportedOperationException();
 	}
-
 }
