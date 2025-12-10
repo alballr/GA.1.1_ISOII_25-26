@@ -7,4 +7,9 @@ public class PhysicalMaterial {
 	private boolean reserved;
 	private int numCopies;
 
+	public boolean isAvailable() {
+		// TODO - implement PhysicalMaterial.isAvailable
+		throw new UnsupportedOperationException();
+	}
+
 }
