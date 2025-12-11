@@ -2,6 +2,11 @@ package Presentation;
 
 public class systemClientUI {
 
+	private int ID;
+    private String username;
+    
+    private ControlSystemUpdates controlUpdates = new ControlSystemUpdates();
+	
 	/**
 	 * 
 	 * @param request
@@ -27,4 +32,17 @@ public class systemClientUI {
     public SystemParameters viewCurrentConfiguration() {
     	throw new UnsupportedOperationException();
     }
+
+    public SystemUpdatePackage checkForUpdates() {
+        throw new UnsupportedOperationException();
+    }
+
+    public boolean downloadUpdate() {
+        throw new UnsupportedOperationException();
+    }
+
+    public boolean installUpdate() {
+        throw new UnsupportedOperationException();
+    }
+    
 }
