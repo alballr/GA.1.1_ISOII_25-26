@@ -34,4 +34,22 @@ public class SystemAdminControllerTest {
 
         assertFalse(controller.configureSystemParameters(null));
     }
+    
+    @Test
+    public void testCheckForUpdates_ThrowsUnsupportedOperation() {
+        SystemAdminController controller = new SystemAdminController();
+        assertThrows(UnsupportedOperationException.class, () -> controller.checkForUpdates());
+    }
+
+    @Test
+    public void testDownloadUpdate_ThrowsUnsupportedOperation() {
+        SystemAdminController controller = new SystemAdminController();
+        assertThrows(UnsupportedOperationException.class, () -> controller.downloadUpdate());
+    }
+
+    @Test
+    public void testInstallUpdate_ThrowsUnsupportedOperation() {
+        SystemAdminController controller = new SystemAdminController();
+        assertThrows(UnsupportedOperationException.class, () -> controller.installUpdate());
+    }
 }
