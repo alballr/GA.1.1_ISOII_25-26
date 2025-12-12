@@ -18,4 +18,8 @@ public class BasicUserUI_reservationManagement {
 		// TODO - implement BasicUserUI.showAvailableSpaces
 		throw new UnsupportedOperationException();
 	}
+	public void showAvailableHadware() {
+		// TODO - implement BasicUserUI.showAvailableHadware
+		throw new UnsupportedOperationException();
+	}
 }
