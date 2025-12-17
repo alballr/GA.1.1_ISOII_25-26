@@ -28,6 +28,20 @@ public class commandLine implements commandLineI {
 		return num;
 	}
 	
+	public int readPositiveInt() {
+		boolean flag = true;
+		int num= 0;
+		while(flag == true) {
+			try {
+				String input= sc.nextLine();
+				num = Integer.parseInt(input);
+				if(num >= 0)	flag = false;
+			} catch(NumberFormatException e) {
+				flag = true;
+			}		
+		}
+		return num;
+	}
 	public double readDouble() {
 		boolean flag = true;
 		double num= 0;
@@ -36,6 +50,20 @@ public class commandLine implements commandLineI {
 				String input= sc.nextLine();
 				num = Double.parseDouble(input);
 				flag = false;
+			} catch(NumberFormatException e) {
+				flag = true;
+			}		
+		}
+		return num;
+	}
+	public double readPositiveDouble() {
+		boolean flag = true;
+		double num= 0;
+		while(flag == true) {
+			try {
+				String input= sc.nextLine();
+				num = Double.parseDouble(input);
+				if(num >=0) flag = false;
 			} catch(NumberFormatException e) {
 				flag = true;
 			}		

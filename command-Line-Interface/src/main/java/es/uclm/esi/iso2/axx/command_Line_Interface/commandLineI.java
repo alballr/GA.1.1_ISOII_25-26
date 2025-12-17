@@ -5,7 +5,9 @@ import java.util.Date;
 public interface commandLineI {
 	
 	int readInt();
+	int readPositiveInt();
 	double readDouble();
+	double readPositiveDouble();
 	Date readDate();
 	String readString();
 	String readLine();

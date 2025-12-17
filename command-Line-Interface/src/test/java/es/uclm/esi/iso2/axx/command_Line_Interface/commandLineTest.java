@@ -65,6 +65,46 @@ public class commandLineTest {
         assertEquals(0, new commandLine().readInt());
         restoreInputOutput();
     }
+    
+    @Test
+    public void testReadPositiveInt() {
+        setInput("2\n");
+        assertEquals(2, new commandLine().readPositiveInt());
+        
+        restoreInputOutput();
+
+        setInput("-6\n2\n");
+        assertEquals(2, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("2.5\n3\n");
+        assertEquals(3, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("hello\n10\n");
+        assertEquals(10, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("   \n8\n");
+        assertEquals(8, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("45b\n4\n");
+        assertEquals(4, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("2147483647\n");
+        assertEquals(2147483647, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("-2147483648\n2\n");
+        assertEquals(2, new commandLine().readPositiveInt());
+        restoreInputOutput();
+
+        setInput("2147483648\n0\n");
+        assertEquals(0, new commandLine().readPositiveInt());
+        restoreInputOutput();
+    }  
 
     @Test
     public void testReadDouble() {
@@ -88,6 +128,33 @@ public class commandLineTest {
         
         setInput("-1.8E308\n1.0\n");
         assertEquals(Double.NEGATIVE_INFINITY, new commandLine().readDouble(), DELTA);
+    }
+    
+    @Test
+    public void testReadPositiveDouble() {
+        setInput("2\n");
+        assertEquals(2.0, new commandLine().readPositiveDouble(), DELTA);
+
+        setInput("2.5\n");
+        assertEquals(2.5, new commandLine().readPositiveDouble(), DELTA);
+        
+        setInput("-2.5\n2.5");
+        assertEquals(2.5, new commandLine().readPositiveDouble(), DELTA);
+
+        setInput("hello\n3.14\n");
+        assertEquals(3.14, new commandLine().readPositiveDouble(), DELTA);
+
+        setInput("   \n10.5\n");
+        assertEquals(10.5, new commandLine().readPositiveDouble(), DELTA);
+
+        setInput("1.7E308\n");
+        assertEquals(1.7E308, new commandLine().readPositiveDouble(), DELTA);
+
+        setInput("1.8E308\n1.0\n");
+        assertEquals(Double.POSITIVE_INFINITY, new commandLine().readPositiveDouble(), DELTA);
+        
+        setInput("-1.8E308\n1.0\n");
+        assertEquals(1.0, new commandLine().readPositiveDouble(), DELTA);
     
     }
 
